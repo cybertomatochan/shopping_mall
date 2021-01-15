@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/shopping_mall/',
+    assetsPublicPath: '/shopping_mall/dist/',
 
     /**
      * Source Maps
