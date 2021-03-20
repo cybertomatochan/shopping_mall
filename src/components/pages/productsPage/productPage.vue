@@ -4,7 +4,7 @@
       <ol class="breadcrumb pl-0">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
         <li class="breadcrumb-item active" aria-current="page">
-          <router-link to="/products">所有商品</router-link>
+          <router-link to="/all">所有商品</router-link>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
           <router-link :to="`${product.id}`">{{ product.title }}</router-link>

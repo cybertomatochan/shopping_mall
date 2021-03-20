@@ -59,7 +59,7 @@ export default new Router({
             },
             {
               name: 'payment',
-              path: '/payment',
+              path: '/payment/:orderId',
               component: Payment,
             },
             {
@@ -72,6 +72,7 @@ export default new Router({
               path: '/:id',
               component: ProductPage,
             },
+            
             
               ]
         },

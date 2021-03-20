@@ -6,7 +6,11 @@
         background-image: url('https://images.unsplash.com/photo-1488459716781-31db52582fe9');
       "
     >
-      <div class="jumboLayer text-center py-4">
+      <div
+        class="jumboLayer text-center py-4"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <h1 class="mb-3 font-weight-bolder">巷弄美味輕鬆到家</h1>
         <p class="h3 mb-3 font-weight-bolder">
           CoMa<i class="fas fa-utensils"></i>，你想得到的店家都在這裡
@@ -20,9 +24,15 @@
     <!-- 最新消息 -->
     <div class="py-5">
       <div class="container">
-        <h3 class="text-center my-3 font-weight-bolder">最新消息</h3>
+        <h3
+          class="text-center my-3 font-weight-bolder"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          最新消息
+        </h3>
         <div class="row">
-          <div class="col-md-4 my-3">
+          <div class="col-md-4 my-3" data-aos="fade-right" data-aos-duration="500">
             <div
               class="news-img d-flex align-items-center"
               style="
@@ -33,12 +43,17 @@
                 <h3 class="text-primary font-weight-bolder">【親子廚房】</h3>
                 <p>110/02</p>
                 <p class="font-weight-bolder">
-                  營養師和料理專家同台教學，挑食、過敏都沒問題，大人小孩都愛吃的手工水餃食譜。
+                  營養師和廚師同台教學，挑食過敏沒問題，大家都愛吃的手工水餃食譜。
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 my-3">
+          <div
+            class="col-md-4 my-3"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-duration="500"
+          >
             <div
               class="news-img d-flex align-items-center"
               style="
@@ -46,7 +61,7 @@
               "
             >
               <div class="px-3 mx-3 news-text">
-                <h3 class="text-primary font-weight-bolder">【會員專屬--異國食堂】</h3>
+                <h3 class="text-primary font-weight-bolder">【異國食堂】</h3>
                 <p>109/12</p>
                 <p class="font-weight-bolder">
                   年末回饋，邀請白金會員至五星級飯店 BUFFET，享受溫馨平安夜。
@@ -54,7 +69,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 my-3">
+          <div
+            class="col-md-4 my-3"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+            data-aos-duration="500"
+          >
             <div
               class="news-img d-flex align-items-center"
               style="
@@ -73,9 +93,14 @@
         </div>
       </div>
     </div>
+
     <!-- 網站服務簡單介紹 -->
     <div class="bg-dark py-5">
-      <div class="container text-light text-center">
+      <div
+        class="container text-light text-center"
+        data-aos="fade"
+        data-aos-duration="2000"
+      >
         <h3 class="my-3">CoMa<i class="fas fa-utensils"></i> 三大保證</h3>
         <div class="row mb-3">
           <div class="col-md-4">
@@ -98,7 +123,7 @@
     </div>
 
     <!-- 商品連結 -->
-    <div class="py-5">
+    <div class="py-5" data-aos="fade" data-aos-duration="2000">
       <div class="container">
         <div class="h3 text-center my-3 font-weight-bolder">最近大家都在瘋甚麼</div>
         <div class="row">

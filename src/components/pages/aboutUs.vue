@@ -6,10 +6,12 @@
         style="
           background-image: url('https://images.unsplash.com/photo-1518522772213-78b1085b76d2');
         "
+        data-aos="fade-right"
+        data-aos-duration="1000"
       ></div>
       <div class="col-md-7 py-5 text-primary">
         <div class="row d-flex justify-content-center">
-          <div class="col-8">
+          <div class="col-8" data-aos="fade-left" data-aos-duration="1000">
             <h3 class="text-center mb-5 font-weight-bolder">關於我們</h3>
             <p class="h5 font-weight-bolder mb-5">
               &emsp;&emsp;
@@ -24,7 +26,7 @@
     </div>
     <div class="row d-flex flex-md-row-reverse bg-primary align-items-center">
       <div class="col-md-5">
-        <div class="text-light px-3 my-3">
+        <div class="text-light px-3 my-3" data-aos="fade-left" data-aos-duration="1000">
           <h3 class="text-center">實體商店</h3>
           <h3 class="mt-5">
             <i class="fas fa-map-marked-alt mr-5"></i>110台北市信義區菸廠路88號
@@ -35,7 +37,7 @@
           </h3>
         </div>
       </div>
-      <div class="col-md-7 px-3">
+      <div class="col-md-7 px-3" data-aos="fade-right" data-aos-duration="1000">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14458.765581207339!2d121.5614574!3d25.044545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d204e656cd39b8!2z6Kqg5ZOB55Sf5rS75p2-6I-45bqX!5e0!3m2!1szh-TW!2stw!4v1610459580136!5m2!1szh-TW!2stw"
           frameborder="0"

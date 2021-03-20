@@ -50,6 +50,15 @@ export default {
     return {
       cart: [],
       cartLength: 0,
+      form: {
+        user: {
+          name: "番茄",
+          email: "tomata123@gmail.com",
+          tel: "09000",
+          address: "000",
+        },
+        message: "",
+      },
     };
   },
   methods: {
@@ -57,7 +66,7 @@ export default {
       const vm = this;
       const url = `${process.env.APIPATH}/api/${process.env.CUSTOMPATH}/cart`;
       this.$http.get(url).then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         vm.cart = response.data.data;
         vm.cartLength = response.data.data.carts.length;
       });
@@ -75,7 +84,17 @@ export default {
       $("#dropdownMenu2").dropdown("show");
     },
     goPay() {
-      this.$router.push("payment");
+      const vm = this;
+      const url = `${process.env.APIPATH}/api/${process.env.CUSTOMPATH}/order`;
+      const order = vm.form;
+      vm.isLoading = true;
+      this.$http.post(url, { data: order }).then((response) => {
+        console.log("訂單已建立", response);
+        if (response.data.success) {
+          vm.$router.push(`/payment/${response.data.orderId}`);
+        }
+        vm.isLoading = false;
+      });
     },
   },
   created() {
