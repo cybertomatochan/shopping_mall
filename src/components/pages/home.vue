@@ -2,9 +2,6 @@
   <div>
     <div
       class="jumbotron d-flex justify-content-center align-items-center"
-      style="
-        background-image: url('https://images.unsplash.com/photo-1488459716781-31db52582fe9');
-      "
     >
       <div
         class="jumboLayer text-center py-4"
@@ -34,10 +31,7 @@
         <div class="row">
           <div class="col-md-4 my-3" data-aos="fade-right" data-aos-duration="500">
             <div
-              class="news-img d-flex align-items-center"
-              style="
-                background-image: url('https://images.unsplash.com/photo-1570604127008-f644337cfb8b');
-              "
+              class="news-img d-flex align-items-center kitchen"
             >
               <div class="px-3 mx-3 news-text">
                 <h3 class="text-primary font-weight-bolder">【親子廚房】</h3>
@@ -55,11 +49,7 @@
             data-aos-duration="500"
           >
             <div
-              class="news-img d-flex align-items-center"
-              style="
-                background-image: url('https://images.unsplash.com/photo-1575443163387-1ee3ce66a683');
-              "
-            >
+              class="news-img d-flex align-items-center exotic">
               <div class="px-3 mx-3 news-text">
                 <h3 class="text-primary font-weight-bolder">【異國食堂】</h3>
                 <p>109/12</p>
@@ -76,11 +66,7 @@
             data-aos-duration="500"
           >
             <div
-              class="news-img d-flex align-items-center"
-              style="
-                background-image: url('https://images.unsplash.com/photo-1499682562388-92424022d2a2');
-              "
-            >
+              class="news-img d-flex align-items-center tour">
               <div class="px-3 mx-3 news-text">
                 <h3 class="text-primary font-weight-bolder">【名人導覽】</h3>
                 <p>109/10</p>
@@ -130,11 +116,7 @@
           <div class="col-md-6 my-3">
             <router-link to="/hot">
               <div
-                class="link-img"
-                style="
-                  background-image: url('https://images.unsplash.com/photo-1603092872493-55d05f48019e');
-                "
-              >
+                class="link-img hot">
                 <div class="layer invisible">
                   <h4 class="text-dark text-right carousel-caption link-text">
                     Hot Products →
@@ -146,11 +128,7 @@
           <div class="col-md-6 my-3">
             <router-link to="/discount">
               <div
-                class="link-img"
-                style="
-                  background-image: url('https://images.unsplash.com/photo-1559667709-eabb5b50117a');
-                "
-              >
+                class="link-img discount">
                 <div class="layer invisible">
                   <h4 class="text-dark text-right carousel-caption link-text">
                     Discount Products →
@@ -166,9 +144,12 @@
 </template>
 
 <script>
+$assets: '~@/assets/';
+
 export default {
   data() {
-    return {};
+    return {
+    };
   },
 };
 </script>

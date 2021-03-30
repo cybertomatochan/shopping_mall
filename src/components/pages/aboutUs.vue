@@ -3,9 +3,6 @@
     <div class="row">
       <div
         class="col-md-5 about-img"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1518522772213-78b1085b76d2');
-        "
         data-aos="fade-right"
         data-aos-duration="1000"
       ></div>
@@ -130,3 +127,12 @@
     </div>
   </div>
 </template>
+<script>
+
+  export default {
+    data() {
+      return {
+      };
+    },
+  };
+</script>
